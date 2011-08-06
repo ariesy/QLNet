@@ -56,7 +56,7 @@ namespace QLNet {
        \todo Add preconditions and tests
 
        \todo Should put an instance of ForwardRateAgreement in the
-             FraRateHelper to ensure consistency with the piecewise
+             FRARateHelper to ensure consistency with the piecewise
              yield curve.
 
        \todo Differentiate between BBA (British)/AFB (French)

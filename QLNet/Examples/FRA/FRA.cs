@@ -93,23 +93,23 @@ namespace FRA {
             BusinessDayConvention convention = euribor3m.businessDayConvention();
             bool endOfMonth = euribor3m.endOfMonth();
 
-            RateHelper fra1x4 =  new FraRateHelper(h1x4, 1, 4,
+            RateHelper fra1x4 =  new FRARateHelper(h1x4, 1, 4,
                                                  fixingDays, calendar, convention,
                                                  endOfMonth, fraDayCounter);
 
-            RateHelper fra2x5 = new FraRateHelper(h2x5, 2, 5,
+            RateHelper fra2x5 = new FRARateHelper(h2x5, 2, 5,
                                                  fixingDays, calendar, convention,
                                                  endOfMonth, fraDayCounter);
 
-            RateHelper fra3x6 = new FraRateHelper(h3x6, 3, 6,
+            RateHelper fra3x6 = new FRARateHelper(h3x6, 3, 6,
                                                  fixingDays, calendar, convention,
                                                  endOfMonth, fraDayCounter);
 
-            RateHelper fra6x9 = new FraRateHelper(h6x9, 6, 9,
+            RateHelper fra6x9 = new FRARateHelper(h6x9, 6, 9,
                                                  fixingDays, calendar, convention,
                                                  endOfMonth, fraDayCounter);
 
-            RateHelper fra9x12 = new FraRateHelper(h9x12, 9, 12,
+            RateHelper fra9x12 = new FRARateHelper(h9x12, 9, 12,
                                                  fixingDays, calendar, convention,
                                                  endOfMonth, fraDayCounter);
 

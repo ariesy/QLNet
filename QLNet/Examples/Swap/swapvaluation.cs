@@ -143,11 +143,11 @@ namespace Swap {
                 fixingDays, calendar, BusinessDayConvention.ModifiedFollowing, true, depositDayCounter);
 
             // setup FRAs
-            RateHelper fra3x6 = new FraRateHelper(new Handle<Quote>(fra3x6Rate), 3, 6, fixingDays, calendar,
+            RateHelper fra3x6 = new FRARateHelper(new Handle<Quote>(fra3x6Rate), 3, 6, fixingDays, calendar,
                         BusinessDayConvention.ModifiedFollowing, true, depositDayCounter);
-            RateHelper fra6x9 = new FraRateHelper(new Handle<Quote>(fra6x9Rate), 6, 9, fixingDays, calendar,
+            RateHelper fra6x9 = new FRARateHelper(new Handle<Quote>(fra6x9Rate), 6, 9, fixingDays, calendar,
                         BusinessDayConvention.ModifiedFollowing, true, depositDayCounter);
-            RateHelper fra6x12 = new FraRateHelper(new Handle<Quote>(fra6x12Rate), 6, 12, fixingDays, calendar,
+            RateHelper fra6x12 = new FRARateHelper(new Handle<Quote>(fra6x12Rate), 6, 12, fixingDays, calendar,
                         BusinessDayConvention.ModifiedFollowing, true, depositDayCounter);
 
 
